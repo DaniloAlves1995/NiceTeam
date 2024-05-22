@@ -73,7 +73,7 @@ java -jar NiceTeam-0.0.1-SNAPSHOT.jar
 
 Running by maven or standalone requires that you have Java installed and the JAVA_HOME variable set.
 
-Independent of the tool chose for running the application, you'll have an API running on the 8080 port, which can be checked by the 
+Independent of the tool chosen for running the application, you'll have an API running on the 8080 port, which can be checked by the 
 link: http://localhost:8080/api/teams
 
 ## Testing
