@@ -29,7 +29,7 @@ interfaces `TeamRepository.java` and `PlayerRepository.java` in this solution.
 
 Before follow a specific instalation tool, you need to clone this repository in your local computer:
 ```bash
-git clone
+git clone https://github.com/DaniloAlves1995/NiceTeam.git
 ```
 Case you don't have git installed, please follow the instructions [install Git.](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 

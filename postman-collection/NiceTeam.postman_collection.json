@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "e94aa21e-6613-4f73-b0c2-d3a2dec84c68",
+		"name": "NiceTeam",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3021185"
+	},
+	"item": [
+		{
+			"name": "AddTeam",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Nice\",\n    \"acronym\": \"OGC\",\n    \"players\": [],\n    \"budget\": 6000000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/teams",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"teams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddTeamAndPlayers",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "EditTeam",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Nice\",\n    \"acronym\": \"OGC\",\n    \"players\": [\n        {\n            \"name\": \"Dante\",\n            \"position\": \"Defender\"\n        },\n        {\n            \"name\": \"Khéphren Thuram\",\n            \"position\": \"Midfielder\"\n        },\n        {\n            \"name\": \"Terem Moffi\",\n            \"position\": \"Forward\"\n        }\n    ],\n    \"budget\": 6000000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/teams",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"teams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListTeams",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteTeam",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "TeamById",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
